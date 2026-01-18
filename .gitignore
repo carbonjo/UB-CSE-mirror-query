@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Vector Database (ChromaDB)
+chroma_db/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+wget_mirror.log
+wget_mirror_with_shared.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mirrored website data (optional - uncomment if you don't want to track the HTML files)
+# engineering.buffalo.edu/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

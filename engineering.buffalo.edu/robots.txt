@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /content/shared/
+Disallow: *CFC__target=
+Disallow: *tag=
+
+User-agent: Twitterbot
+User-agent: facebookexternalhit
+User-agent: Facebot
+Allow: /content/shared/*.img.
